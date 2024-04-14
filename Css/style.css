@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* inicio header  */
+
+header{
+    background-color: lightgray;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+}
+.header-box1{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+
+ .logo{
+    margin-right: 20px;
+    color: crimson;
+    display: flex;
+    justify-content: center;
+}
+.header-box1 a {
+    margin-right:20px ;
+    color: black;
+}
+
+.header-box2{
+    margin-right:100px;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+.header-box2 li{
+    display: inline;
+    margin-right: 35px ;
+}
+
+/* fin header  */
+
+/*Footer*/
+
+footer{
+    width:100%;
+    height:50vh;
+    margin: 32px 0 0;
+    background-color: darkblue;
+}
+
+.footer-container{
+width: 85vw;
+height: 35vh;
+display: flex;
+flex-flow: row;
+justify-content:center;
+align-items: flex-start;
+margin: 5vh 9.4vw 28vh;
+background-color: darkblue;
+color: lightcyan;
+border: 2px solid brown;
+}
+
+.foo-section{
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin:0 4%;
+    border:2px solid yellow
+}
+
+.foo-name-brand{
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.subscribe-container{
+    display:inline-flex;
+    gap: 1rem;
+    margin-top:1rem;
+}
+
+.foo-contact{
+    display: flex;
+    flex-flow: column wrap;
+    margin:0 4%;
+}
+
+.foo-contact span{
+    margin:4% 0;
+}
