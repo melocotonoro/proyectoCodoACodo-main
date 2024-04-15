@@ -233,15 +233,15 @@ footer{
 }
 
 .footer-container{
-width: 85vw;
-height: 35vh;
-display: flex;
-flex-flow: row;
-justify-content:center;
-align-items: flex-start;
-margin: 5vh 9.4vw 4rem;
-background-color: #471501;
-color: #fff1c5
+    width: 85vw;
+    height: 35vh;
+    display: flex;
+    flex-flow: row;
+    justify-content:center;
+    align-items: flex-start;
+    margin: 5vh 9.4vw 4rem;
+    background-color: #471501;
+    color: #fff1c5
 }
 
 .foo-section{
@@ -296,8 +296,10 @@ color: #fff1c5
     text-align: left
 }
 
-.foo-subtitle span{
+.foo-subtitle span, a{
     margin:4% 0;
+    text-decoration: none;
+    color: #fff1c5;;
 }
 
 .subscribe-container{
@@ -371,3 +373,4 @@ color: #fff1c5
     padding: 0;
     margin: 1rem;
 }  
+
