@@ -3,16 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
-<link rel="stylesheet" href="./Css/style.css">
+<!--CSS-->
+    <link rel="stylesheet" href="./Css/style.css">
 
 <!--SASS-->
-<link rel="stylesheet" href="./Sass/style.sass">
-<link rel="stylesheet" href="./Sass/style.css">
-<link rel="stylesheet" href="./Sass/style.css.map">
+    <link rel="stylesheet" href="./Sass/style.sass">
+    <link rel="stylesheet" href="./Sass/style.css">
+    <link rel="stylesheet" href="./Sass/style.css.map">
+
+<!--FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/a291c56e45.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
@@ -46,36 +52,81 @@
     <footer>
         <div class="footer-container">
             <div class="foo-section">
-                <div class="foo-name-brand" >
-                    <span>PHLOX</span>
-                    <span>Nosotros</span>
+                <div class="foo-brand" >
+                    <span class="foo-name-brand">PHLOX</span>
                 </div>
                 <div>
-                    <label for="mail">Newsletter</label>
+                    <span class="foo-subtitle">About</span>
+                </div>
+                <div>
+                    <label for="mail" class="foo-subtitle">Newsletter</label>
                     <div class="subscribe-container">
                         <input type="email" name="mail" id="mail" value="default@example.com">
-                        <button type="submit">Suscribite</button>
+                        <button type="submit">Subscribe</button>
                     </div>
                 </div>
             </div>
             <div class="foo-section">
-                <div>
-                    <span>Contactanos</span>
+                <div class="foo-title">
+                    <span>Contact Us</span>
                 </div>
-                <div class="foo-contact">
-                    <span>Calle 0000,Localidad</span>
-                    <span>CP 0000, Pais</span>
-                    <span>mail@mail.com</span>
+                <div class="foo-contact foo-subtitle">
+                    <span>Street 0000,City</span>
+                    <span>CP 0000, Country</span>
+                    <span>phlox@mail.com</span>
                     <span>9+54 000 0000000 </span>
                 </div>
-
             </div>
-            <div class="foo-section">Registrate</div>
-            <div class="foo-section">Institucional</div>
-            <div class="foo-section">Seguinos</div>
-
+            <div class="foo-section">
+                <div class="foo-title">
+                    <span>Account</span>
+                </div>
+                <div class="foo-subtitle">
+                    <span >My Account</span>
+                    <span>Login/Register</span>
+                    <span>Cart</span>
+                    <span>Whishlist</span>
+                    <span>Shop</span>
+                </div>
+                </div>
+            <div class="foo-section">
+                <div class="foo-title">
+                    <span>Quick Link</span>
+                </div>
+                <div class="foo-subtitle">
+                    <span>Privacy Policy</span>
+                    <span>Terms Of Use</span>
+                    <span>FAQ</span>
+                    <span>Contact</span>
+                </div>
+            </div>
+            <div class="foo-section">
+                <div class="foo-title">
+                    <span>Download App</span>
+                </div>
+                <div id="foo-comments">
+                    <span>Save $3 with App New User Only</span>
+                </div>
+                <div class="foo-platform-digital">
+                    <div>
+                        <img src="./Assets/Img/img-QR-Code.png" alt="QR Code">
+                    </div>
+                    <div>
+                        <img src="./Assets/Img/img-Google-Play.png" alt="">
+                        <img src="./Assets/Img/img-App-Store.png" alt="">
+                    </div>
+                </div>
+                <div class="foo-social-media">
+                    <i class="fa-brands fa-facebook-f fa-xl"></i>
+                    <i class="fa-brands fa-twitter fa-xl"></i>
+                    <i class="fa-brands fa-instagram fa-xl"></i>
+                    <i class="fa-brands fa-linkedin-in fa-xl"></i>
+                </div>
+            </div>
         </div>
-
+        <div class="foo-copyright">
+            <span>&copy; Copyright 2024. All right reserved</span>
+        </div>
     </footer>
 </body>
 </html>
