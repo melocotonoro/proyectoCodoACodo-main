@@ -13,46 +13,54 @@
 /* inicio header  */
 
 header{
-    background-color: lightgray;
-    width: 100%;
-    height: 80px;
+    background-color: #0047ff;
+    max-width: 100vw;
+    height: 6.06rem;
+    padding: 2.68rem 8.45rem 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Montserrat';
+    font-family: var(--fuente-titulo);
+    border: 1px solid red;
 }
-.header-box1{
+
+.nav-container{
+    width: 80vw;
+    height: 2.35rem;
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+    gap: 4rem;
+    border: 1px solid red;
+} 
+
+.nav-menu{
+    width: 80vw;
+    height: 24px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 11.8rem;
+    padding: 0;
+    border:1px solid greenyellow;
+}
+.nav-section{
+    width: 30vw;
+    height: 1.5rem;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
-    margin-left: 100px;
-    justify-content: center;
+    gap: 3rem;
+    border:1px solid yellow;
 }
-
-.logo{
-    margin-right: 20px;
-    color: crimson;
-    display: flex;
-    justify-content: center;
-}
-.header-box1 a {
-    margin-right:20px ;
-    color: black;
-}
-
-.header-box2{
-    margin-right:100px;
-    display: flex;
-    align-items: center;
-}
-
 a{
     text-decoration: none;
 }
-.header-box2 li{
-    display: inline;
-    margin-right: 35px ;
-}
-
 /* fin header  */
 
 .titulo-color p{
@@ -240,6 +248,7 @@ footer{
     justify-content:center;
     align-items: flex-start;
     margin: 5vh 9.4vw 4rem;
+    padding-top: 5vh;
     background-color: #471501;
     color: #fff1c5
 }
